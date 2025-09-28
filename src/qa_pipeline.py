@@ -1,3 +1,16 @@
+"""
+---------------------------------------------------
+ProPEX-RAG Question Answering Pipeline
+---------------------------------------------------
+This script runs the full QA process:
+ - load dataset
+ - connect to knowledge graph
+ - prepare embeddings and triples
+ - retrieve passages via Personalized PageRank
+ - generate answers using LLMs
+ - save predictions and debug traces
+"""
+
 import os
 import json
 import numpy as np
@@ -15,13 +28,20 @@ from config import (
 from openai import AzureOpenAI
 from prompts.hotpot_prompt import build_hotpot_prompt
 
+
+# Initialize client for LLM calls (default: Azure OpenAI)
 client = AzureOpenAI(
     api_key=OPENAI_API_KEY,
     api_version=OPENAI_EMBEDDING_VERSION,
     azure_endpoint=OPENAI_ENDPOINT
 )
 
+
 def generate_answer(question, passages, top_entities, top_triples):
+    """
+    Build a prompt from the question, retrieved passages,
+    and selected entities/triples, then ask the LLM to generate an answer.
+    """
     prompt = build_hotpot_prompt(question, passages, top_entities, top_triples)
     try:
         response = client.chat.completions.create(
@@ -35,13 +55,19 @@ def generate_answer(question, passages, top_entities, top_triples):
     except Exception as e:
         return f"ERROR: {str(e)}"
 
+
 def write_final_debug_entry_strict_format(entry, file_handle):
+    """
+    Write debug information in strict JSON format.
+    This collects entities, passages, answers, and other details
+    for post-analysis and error inspection.
+    """
     file_handle.write('{\n')
     for idx, (key, value) in enumerate(entry.items()):
         comma = ',' if idx < len(entry) - 1 else ''
         file_handle.write(f'  "{key}": ')
         if isinstance(value, list):
-            if key == "query_entities" or key == "retrieved_passage_ids":
+            if key in ["query_entities", "retrieved_passage_ids"]:
                 file_handle.write(json.dumps(value, separators=(',', ': ')) + comma + '\n')
             else:
                 file_handle.write('[\n')
@@ -53,13 +79,31 @@ def write_final_debug_entry_strict_format(entry, file_handle):
             file_handle.write(json.dumps(value, indent=2, separators=(',', ': ')) + comma + '\n')
     file_handle.write('}\n\n')
 
+
 def run_qa_pipeline(input_file, output_file, top_k=5, max_examples=None):
+    """
+    Run the full QA pipeline:
+      1. Load dataset
+      2. Connect to knowledge graph
+      3. Load embeddings and fact triples
+      4. For each question:
+         - rank passages via PPR
+         - gather contexts
+         - generate predicted answer
+         - save prediction and debug info
+    """
+
+    # Step 1. Load dataset
     with open(input_file, "r", encoding="utf-8") as f:
         qa_data = json.load(f)
 
+    # Keep a lookup for fallback contexts
     context_lookup = {ex["_id"]: [" ".join(p[1]) for p in ex["context"]] for ex in qa_data}
+
+    # Step 2. Connect to DB
     connect_to_memgraph()
 
+    # Step 3. Load entity embeddings (from cache if available)
     embedding_cache = os.path.join(kg_builder.data_dir, "entity_embeddings_cache_1_passage_data_with_ner_triples.json")
     if not hasattr(kg_builder, "entity_embeddings") or not kg_builder.entity_embeddings:
         if os.path.exists(embedding_cache):
@@ -77,15 +121,18 @@ def run_qa_pipeline(input_file, output_file, top_k=5, max_examples=None):
             print(f"❌ Entity embedding cache not found: {embedding_cache}")
             return
 
+    # Step 4. Load fact triples and their embeddings
     if not getattr(kg_builder, "fact_triples", None) or not getattr(kg_builder, "fact_embeddings", None):
         load_fact_triples_and_embeddings()
 
     cursor = kg_builder.mg_conn.cursor()
     predictions = []
 
+    # Create directory for debug traces
     final_debug_path = os.path.join(kg_builder.data_dir, "final_debug_trace", "final_debug_trace_sample_data.jsonl")
     os.makedirs(os.path.dirname(final_debug_path), exist_ok=True)
 
+    # Step 5. Iterate through questions
     with open(final_debug_path, "w", encoding="utf-8") as debug_file:
         for i, sample in enumerate(tqdm(qa_data[:max_examples], desc="Generating answers")):
             qid = sample["_id"]
@@ -93,6 +140,7 @@ def run_qa_pipeline(input_file, output_file, top_k=5, max_examples=None):
             gold_answer = sample["answer"]
 
             try:
+                # Step 5a. Retrieve passages using PPR
                 result = rank_passages_by_ppr(
                     question, top_k=top_k, qid=qid, return_entities=True
                 )
@@ -104,6 +152,7 @@ def run_qa_pipeline(input_file, output_file, top_k=5, max_examples=None):
 
                 passage_ids = [r["passage_id"] for r in retrievals]
 
+                # Step 5b. Collect text from KG passages
                 contexts = []
                 for pid in passage_ids:
                     cursor.execute("""
@@ -116,17 +165,20 @@ def run_qa_pipeline(input_file, output_file, top_k=5, max_examples=None):
                     else:
                         print(f"⚠️ Passage {pid} not found in KG for {qid}")
 
+                # Fallback if KG does not return passages
                 if not contexts:
                     fallback = context_lookup.get(qid, [])
                     if fallback:
-                        print(f"🔁 Fallback: Using HotpotQA context for {qid}")
+                        print(f"🔁 Fallback: Using dataset context for {qid}")
                         contexts = fallback
 
+                # Step 5c. Generate answer with LLM
                 predicted_answer = (
                     generate_answer(question, contexts, top_entities, top_triples)
                     if contexts else "ERROR: No context found"
                 )
 
+                # Step 5d. Save results
                 predictions.append({
                     "id": qid,
                     "question": question,
@@ -138,6 +190,7 @@ def run_qa_pipeline(input_file, output_file, top_k=5, max_examples=None):
                     "top_entities": top_entities
                 })
 
+                # Step 5e. Collect debug trace
                 debug_trace_path = os.path.join(kg_builder.data_dir, "debug_trace", f"{qid}.json")
                 if os.path.exists(debug_trace_path):
                     with open(debug_trace_path, "r", encoding="utf-8") as trace_f:
@@ -168,6 +221,7 @@ def run_qa_pipeline(input_file, output_file, top_k=5, max_examples=None):
                 debug_file.write("\n\n")
                 predictions.append(error_entry)
 
+    # Step 6. Save final outputs
     with open(output_file, "w", encoding="utf-8") as f:
         for ex in predictions:
             json.dump(ex, f)
@@ -176,11 +230,12 @@ def run_qa_pipeline(input_file, output_file, top_k=5, max_examples=None):
     print(f"\n✅ Saved {len(predictions)} predictions to: {output_file}")
     print(f"✅ Saved merged debug trace to: {final_debug_path}")
 
+
 if __name__ == "__main__":
     input_file = "./datasets/2wikimultihopqa.json"
     output_file = "./final_output_dataset/testing_sample_dataset.jsonl"
 
-    print("🚀 Starting QA Pipeline on HotpotQA...")
+    print("🚀 Starting QA Pipeline...")
     run_qa_pipeline(
         input_file=input_file,
         output_file=output_file,

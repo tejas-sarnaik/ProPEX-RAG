@@ -39,12 +39,66 @@ This design achieves high performance on complex QA tasks while maintaining scal
 2. Configure Models and API Keys
    - Replace the default models in config.py with your custom models (if needed)
 
+## 🚀 Quick Start
 
-## Quick Start
+### 1. Setup Environment
+Clone the repository and install dependencies:
 
+```bash
+git clone https://github.com/tejas-sarnaik/ProPEX-RAG.git
+cd ProPEX-RAG
+```
 
+### 2. Configure Models
+Edit config.py to plug in your desired provider.
+```bash
+LLM_PROVIDER = "openai"
+OPENAI_API_KEY = "<your_openai_api_key>"
+OPENAI_ENDPOINT = "<your_openai_endpoint_url>"
+OPENAI_DEPLOYMENT_NAME = "gpt-4.1-mini"
+```
+OPENAI_EMBEDDING_DEPLOYMENT = "text-embedding-3-large"
 
+```bash
+For local/offline models (e.g., LLaMA, HuggingFace):
+LLM_PROVIDER = "llama"
+LOCAL_MODEL_PATH = "/path/to/llama-60b-instruct-or-other"
+LOCAL_EMBEDDING_MODEL = "NV-Embed-v2(7B) or other"
+LOCAL_EMBEDDING_DEVICE = "cuda"
+```
+👉 Simply switch LLM_PROVIDER between openai, llama, vllm, or huggingface depending on your setup.
 
+### 3. Build the Knowledge Graph
+Run the main orchestrator to construct the symbolic knowledge graph:
+```bash
+python main.py
+```
+This step extracts entities, fact triples, and builds the graph the knowledge garph.
+
+4. Run Retrieval & QA
+To run retrieval and answer questions:
+```bash
+python rag_ppr_retriever.py --question "When did Maradona sign with Barcelona?"
+```
+Retrieval Process: rag_ppr_retriever.py
+QA Pipeline: qa_pipeline.py
+
+### 5. Example Demo
+ProPEX-RAG follows a prompt-driven, entity-guided pipeline:
+
+Entity Extraction → Identifies key entities from the query (e.g., Messi, Barcelona, Copa del Rey).
+Graph Traversal → Expands with aliases and traverses neighbors using Personalized PageRank (PPR).
+Fact Filtering → Keeps only relevant fact triples (e.g., Messi compared_to Maradona, Maradona signed_by Barcelona).
+Evidence Projection → Projects entity scores back onto passages.
+Reranking → Reorders Top-k passages using entity overlap, title boosts, and coherent multi-hop paths.
+Answer Synthesis → Prompts over selected passages and extracts the final answer with provenance.
+
+📌 Example:
+Question: “When was Maradona signed by Barcelona?”
+Extracted Entities: {Messi, Maradona, Barcelona}
+Graph Traversal: Messi → compared_to → Maradona → signed_by → Barcelona
+Reranked Evidence: Passage P₁ (FC Barcelona) surfaced to top
+Synthesized Answer: “June 1982”
 
 ## Code Structure
 
