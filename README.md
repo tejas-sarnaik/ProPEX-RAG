@@ -48,48 +48,47 @@ This design achieves high performance on complex QA tasks while maintaining scal
 
 ## Code Structure
 
-## 📂 Project Structure
-
+# 📂 ProPEX-RAG Project Structur
+```bash
 ProPEX-RAG/
-├── 📄 README.md # Project documentation
-├── 📄 LICENSE # License file
-├── 📄 requirements.txt # Python dependencies
-├── 📄 config.py # Configuration settings
+├── 📄 README.md                   # Project documentation
+├── 📄 LICENSE                     # License file
+├── 📄 requirements.txt            # Python dependencies
+├── 📄 config.py                   # Configuration settings
 │
 ├── 🐍 Core Components
-│ ├── main.py # Main pipeline orchestrator
-│ ├── knowledge_graph_core.py # Knowledge graph construction
-│ ├── facts_triplet_entity_processor.py # Entity and triplet processing
-│ ├── qa_pipeline.py # Question-answering pipeline
-│ ├── rag_ppr_retriever.py # Personalized PageRank retrieval
-│ └── run_extract.py # Entity/triple extraction runner
+│   ├── main.py                    # Main pipeline orchestrator
+│   ├── knowledge_graph_core.py    # Knowledge graph construction
+│   ├── facts_triplet_entity_processor.py # Entity and triplet processing
+│   ├── qa_pipeline.py             # Question-answering pipeline
+│   ├── rag_ppr_retriever.py       # Personalized PageRank retrieval
+│   └── run_extract.py             # Entity/triple extraction runner
 │
-├── 📁 prompts/ # Prompt templates
-│ ├── prompts.py # Core prompt templates
-│ ├── hotpot_prompt.py # HotpotQA-specific prompts
-│ ├── sampleqa_prompt.py # Sample QA prompts
-│ └── triple_filter_prompt.py # Triple filtering prompts
+├── 📁 prompts/                    # Prompt templates
+│   ├── prompts.py                 # Core prompt templates
+│   ├── hotpot_prompt.py           # HotpotQA specific prompts
+│   ├── sampleqa_prompt.py         # Sample QA prompts
+│   └── triple_filter_prompt.py    # Triple filtering prompts
 │
-├── 📁 datasets/ # Sample data
-│ ├── sample_database_corpus.json # Sample corpus data
-│ └── sample_database_qa.json # Sample QA pairs
+├── 📁 datasets/                   # Sample data
+│   ├── sample_database_corpus.json # Sample corpus data
+│   └── sample_database_qa.json    # Sample QA pairs
 │
-├── 📁 images/ # Documentation assets
-│ └── ProPexRAG_Diagram_final_1.jpg # Architecture diagram
+├── 📁 images/                     # Documentation assets
+│   └── ProPexRAG_Diagram_final_1.jpg # Architecture diagram
 │
-├── 📁 output_directory/ # Processing outputs
-│ ├── output_entity_facts_triplets/
-│ │ ├── 1_passage_data_with_ner_triples.json
-│ │ ├── filtered_fact_triples_all.json
-│ │ └── processing_checkpoint.json
-│ ├── retrievals/ # Retrieval results
-│ ├── debug_trace_final/ # Debug traces
-│ └── final_debug_trace/ # Final debug outputs
+├── 📁 output_directory/           # Processing outputs
+│   ├── output_entity_facts_triplets/ # Processed entities & triplets
+│   │   ├── 1_passage_data_with_ner_triples.json
+│   │   ├── filtered_fact_triples_all.json
+│   │   └── processing_checkpoint.json
+│   ├── retrievals/                # Retrieval results
+│   ├── debug_trace_final/         # Debug traces
+│   └── final_debug_trace/         # Final debug outputs
 │
-├── 📁 final_output_dataset/ # Final processed datasets
-└── 📁 pycache/ # Python cache files
-
-```
+├── 📁 debug_trace_final/          # Debug information
+├── 📁 final_output_dataset/       # Final processed datasets
+└── 📁 __pycache__/                # Python cache files
 
 ## Contact
 
