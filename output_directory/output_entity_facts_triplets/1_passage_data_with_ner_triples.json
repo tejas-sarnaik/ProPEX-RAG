@@ -1,0 +1,1195 @@
+[
+{
+  "passage_id": 1,
+  "title": "Teutberga",
+  "text": "Teutberga( died 11 November 875) was a queen of Lotharingia by marriage to Lothair II. She was a daughter of Bosonid Boso the Elder and sister of Hucbert, the lay- abbot of St. Maurice's Abbey.",
+  "extracted_entities": {
+    "entities": [
+      "Teutberga",
+      "11 November 875",
+      "Lotharingia",
+      "Lothair II",
+      "Bosonid Boso the Elder",
+      "Hucbert",
+      "St. Maurice's Abbey"
+    ],
+    "entity_count": 7
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Teutberga",
+        "died on",
+        "11 November 875"
+      ],
+      [
+        "Teutberga",
+        "was queen of",
+        "Lotharingia"
+      ],
+      [
+        "Teutberga",
+        "married to",
+        "Lothair II"
+      ],
+      [
+        "Teutberga",
+        "daughter of",
+        "Bosonid Boso the Elder"
+      ],
+      [
+        "Teutberga",
+        "sister of",
+        "Hucbert"
+      ],
+      [
+        "Hucbert",
+        "was lay-abbot of",
+        "St. Maurice's Abbey"
+      ]
+    ],
+    "triple_count": 6
+  }
+},
+{
+  "passage_id": 2,
+  "title": "Theodred II (Bishop of Elmham)",
+  "text": "Theodred II was a medieval Bishop of Elmham. The date of Theodred's consecration unknown, but the date of his death was sometime between 995 and 997.",
+  "extracted_entities": {
+    "entities": [
+      "Theodred II",
+      "Bishop of Elmham",
+      "Elmham",
+      "995",
+      "997"
+    ],
+    "entity_count": 5
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Theodred II",
+        "held position",
+        "Bishop of Elmham"
+      ],
+      [
+        "Bishop of Elmham",
+        "associated with",
+        "Elmham"
+      ],
+      [
+        "Theodred II",
+        "died between",
+        "995"
+      ],
+      [
+        "Theodred II",
+        "died between",
+        "997"
+      ]
+    ],
+    "triple_count": 4
+  }
+},
+{
+  "passage_id": 3,
+  "title": "Lambert, Margrave of Tuscany",
+  "text": "Lambert( died after 938) was the second son of Adalbert II of Tuscany and Bertha, daughter of Lothair II of Lotharingia. He succeeded his elder brother, Guy, as count and duke of Lucca and margrave of Tuscany on his death in 928 or 929 without heirs. In 931, before 17 October, Hugh, King of Italy, disowned and removed Lambert, giving Tuscany and the familial possession of Lucca to his brother Boso. Hugh was Guy and Lambert's half- brother, as they had the same mother. When Guy died, Hugh married Guy's widow, Marozia.",
+  "extracted_entities": {
+    "entities": [
+      "Lambert",
+      "Adalbert II of Tuscany",
+      "Bertha",
+      "Lothair II of Lotharingia",
+      "Guy",
+      "Lucca",
+      "Tuscany",
+      "931",
+      "17 October",
+      "Hugh",
+      "King of Italy",
+      "Boso",
+      "Marozia"
+    ],
+    "entity_count": 13
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Lambert",
+        "died after",
+        "938"
+      ],
+      [
+        "Lambert",
+        "is son of",
+        "Adalbert II of Tuscany"
+      ],
+      [
+        "Lambert",
+        "is son of",
+        "Bertha"
+      ],
+      [
+        "Bertha",
+        "is daughter of",
+        "Lothair II of Lotharingia"
+      ],
+      [
+        "Lambert",
+        "succeeded",
+        "Guy"
+      ],
+      [
+        "Guy",
+        "was count and duke of",
+        "Lucca"
+      ],
+      [
+        "Guy",
+        "was margrave of",
+        "Tuscany"
+      ],
+      [
+        "Lambert",
+        "was count and duke of",
+        "Lucca"
+      ],
+      [
+        "Lambert",
+        "was margrave of",
+        "Tuscany"
+      ],
+      [
+        "Guy",
+        "died in",
+        "928 or 929"
+      ],
+      [
+        "Hugh",
+        "disowned and removed",
+        "Lambert"
+      ],
+      [
+        "Hugh",
+        "gave Tuscany to",
+        "Boso"
+      ],
+      [
+        "Hugh",
+        "gave Lucca to",
+        "Boso"
+      ],
+      [
+        "Hugh",
+        "is half-brother of",
+        "Guy"
+      ],
+      [
+        "Hugh",
+        "is half-brother of",
+        "Lambert"
+      ],
+      [
+        "Hugh",
+        "had same mother as",
+        "Guy"
+      ],
+      [
+        "Hugh",
+        "had same mother as",
+        "Lambert"
+      ],
+      [
+        "Hugh",
+        "married",
+        "Marozia"
+      ],
+      [
+        "Marozia",
+        "was widow of",
+        "Guy"
+      ],
+      [
+        "Hugh",
+        "was King of",
+        "Italy"
+      ],
+      [
+        "Hugh",
+        "removed Lambert before",
+        "17 October 931"
+      ]
+    ],
+    "triple_count": 21
+  }
+},
+{
+  "passage_id": 4,
+  "title": "Etan Boritzer",
+  "text": "Etan Boritzer( born 1950) is an American writer of children ’s literature who is best known for his book\" What is God?\" first published in 1989. His best selling\" What is?\" illustrated children's book series on character education and difficult subjects for children is a popular teaching guide for parents, teachers and child- life professionals. Boritzer gained national critical acclaim after\" What is God?\" was published in 1989 although the book has caused controversy from religious fundamentalists for its universalist views. The other current books in the\" What is?\" series include What is Love?, What is Death?, What is Beautiful?, What is Funny?, What is Right?, What is Peace?, What is Money?, What is Dreaming?, What is a Friend?, What is True?, What is a Family?, What is a Feeling?\" The series is now also translated into 15 languages. Boritzer was first published in 1963 at the age of 13 when he wrote an essay in his English class at Wade Junior High School in the Bronx, New York on the assassination of John F. Kennedy. His essay was included in a special anthology by New York City public school children compiled and published by the New York City Department of Education. Boritzer now lives in Venice, California and maintains his publishing office there also. He has helped numerous other authors to get published through\" How to Get Your Book Published!\" programs. Boritzer is also a yoga teacher who teaches regular classes locally and guest- teaches nationally. He is also recognized nationally as an erudite speaker on\" The Teachings of the Buddha.\"",
+  "extracted_entities": {
+    "entities": [
+      "Etan Boritzer",
+      "1950",
+      "What is God?",
+      "1989",
+      "What is?",
+      "What is Love?",
+      "What is Death?",
+      "What is Beautiful?",
+      "What is Funny?",
+      "What is Right?",
+      "What is Peace?",
+      "What is Money?",
+      "What is Dreaming?",
+      "What is a Friend?",
+      "What is True?",
+      "What is a Family?",
+      "What is a Feeling?",
+      "1963",
+      "Wade Junior High School",
+      "The Bronx",
+      "New York",
+      "John F. Kennedy",
+      "New York City Department of Education",
+      "Venice, California",
+      "How to Get Your Book Published!",
+      "The Teachings of the Buddha"
+    ],
+    "entity_count": 26
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Etan Boritzer",
+        "born in",
+        "1950"
+      ],
+      [
+        "Etan Boritzer",
+        "is a",
+        "American writer"
+      ],
+      [
+        "Etan Boritzer",
+        "writes",
+        "children’s literature"
+      ],
+      [
+        "Etan Boritzer",
+        "author of",
+        "What is God?"
+      ],
+      [
+        "What is God?",
+        "published in",
+        "1989"
+      ],
+      [
+        "Etan Boritzer",
+        "author of series",
+        "What is?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is Love?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is Death?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is Beautiful?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is Funny?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is Right?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is Peace?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is Money?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is Dreaming?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is a Friend?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is True?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is a Family?"
+      ],
+      [
+        "What is?",
+        "includes book",
+        "What is a Feeling?"
+      ],
+      [
+        "What is?",
+        "translated into",
+        "15 languages"
+      ],
+      [
+        "Etan Boritzer",
+        "first published in",
+        "1963"
+      ],
+      [
+        "Etan Boritzer",
+        "attended",
+        "Wade Junior High School"
+      ],
+      [
+        "Wade Junior High School",
+        "located in",
+        "The Bronx"
+      ],
+      [
+        "The Bronx",
+        "located in",
+        "New York"
+      ],
+      [
+        "Etan Boritzer",
+        "wrote essay on",
+        "John F. Kennedy"
+      ],
+      [
+        "Etan Boritzer",
+        "essay included in",
+        "New York City Department of Education"
+      ],
+      [
+        "Etan Boritzer",
+        "lives in",
+        "Venice, California"
+      ],
+      [
+        "Etan Boritzer",
+        "maintains publishing office in",
+        "Venice, California"
+      ],
+      [
+        "Etan Boritzer",
+        "helps authors through",
+        "How to Get Your Book Published!"
+      ],
+      [
+        "Etan Boritzer",
+        "is a",
+        "yoga teacher"
+      ],
+      [
+        "Etan Boritzer",
+        "teaches",
+        "The Teachings of the Buddha"
+      ]
+    ],
+    "triple_count": 30
+  }
+},
+{
+  "passage_id": 5,
+  "title": "Lothair II",
+  "text": "Lothair II (835 –) was the king of Lotharingia from 855 until his death. He was the second son of Emperor Lothair I and Ermengarde of Tours. He was married to Teutberga (died 875), daughter of Boso the Elder.",
+  "extracted_entities": {
+    "entities": [
+      "Lothair II",
+      "Lotharingia",
+      "855",
+      "Emperor Lothair I",
+      "Ermengarde of Tours",
+      "Teutberga",
+      "875",
+      "Boso the Elder"
+    ],
+    "entity_count": 8
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Lothair II",
+        "was king of",
+        "Lotharingia"
+      ],
+      [
+        "Lothair II",
+        "reigned from",
+        "855"
+      ],
+      [
+        "Lothair II",
+        "was son of",
+        "Emperor Lothair I"
+      ],
+      [
+        "Lothair II",
+        "was son of",
+        "Ermengarde of Tours"
+      ],
+      [
+        "Lothair II",
+        "was married to",
+        "Teutberga"
+      ],
+      [
+        "Teutberga",
+        "died in",
+        "875"
+      ],
+      [
+        "Teutberga",
+        "was daughter of",
+        "Boso the Elder"
+      ]
+    ],
+    "triple_count": 7
+  }
+},
+{
+  "passage_id": 6,
+  "title": "Ermengarde of Tours",
+  "text": "Ermengarde of Tours (d. 20 March 851) was the daughter of Hugh of Tours, a member of the Etichonen family. In October 821 in Thionville, she married the Carolingian Emperor Lothair I of the Franks (795–855). In 849, two years before her death, she made a donation to the abbey Erstein in the Elsass, in which she is buried. Lothair and Ermengarde had eight children:",
+  "extracted_entities": {
+    "entities": [
+      "Ermengarde of Tours",
+      "20 March 851",
+      "Hugh of Tours",
+      "Etichonen family",
+      "October 821",
+      "Thionville",
+      "Carolingian Emperor Lothair I",
+      "Franks",
+      "795–855",
+      "849",
+      "abbey Erstein",
+      "Elsass",
+      "Lothair"
+    ],
+    "entity_count": 13
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Ermengarde of Tours",
+        "died on",
+        "20 March 851"
+      ],
+      [
+        "Ermengarde of Tours",
+        "daughter of",
+        "Hugh of Tours"
+      ],
+      [
+        "Hugh of Tours",
+        "member of",
+        "Etichonen family"
+      ],
+      [
+        "Ermengarde of Tours",
+        "married",
+        "Carolingian Emperor Lothair I"
+      ],
+      [
+        "Ermengarde of Tours",
+        "married on",
+        "October 821"
+      ],
+      [
+        "Ermengarde of Tours",
+        "married in",
+        "Thionville"
+      ],
+      [
+        "Carolingian Emperor Lothair I",
+        "ruled",
+        "Franks"
+      ],
+      [
+        "Carolingian Emperor Lothair I",
+        "lived from",
+        "795–855"
+      ],
+      [
+        "Ermengarde of Tours",
+        "made donation to",
+        "abbey Erstein"
+      ],
+      [
+        "Ermengarde of Tours",
+        "made donation in",
+        "849"
+      ],
+      [
+        "abbey Erstein",
+        "located in",
+        "Elsass"
+      ],
+      [
+        "Ermengarde of Tours",
+        "buried in",
+        "abbey Erstein"
+      ],
+      [
+        "Ermengarde of Tours",
+        "spouse",
+        "Lothair"
+      ]
+    ],
+    "triple_count": 13
+  }
+},
+{
+  "passage_id": 7,
+  "title": "Bertha, daughter of Lothair II",
+  "text": "Bertha( 863- 8 – March 925 in Lucca) was countess of Arles by marriage to Theobald of Arles, and margravine of Tuccany by marriage to Adalbert II of Tuscany. She served as regent of Lucca and Tuscany from 915 until 916 during the minority of her son Guy of Tuscany. She was described as beautiful, spirited, and courageous, and her influence over her spouse was, coupled with ambition, attributed to have involved her husbands in many wars. She was the second illegitimate daughter of Lothair II, King of Lotharingia, by his concubine Waldrada.",
+  "extracted_entities": {
+    "entities": [
+      "Bertha",
+      "March 925",
+      "Lucca",
+      "countess of Arles",
+      "Theobald of Arles",
+      "margravine of Tuscany",
+      "Adalbert II of Tuscany",
+      "regent of Lucca",
+      "regent of Tuscany",
+      "915",
+      "916",
+      "Guy of Tuscany",
+      "Lothair II",
+      "King of Lotharingia",
+      "Waldrada"
+    ],
+    "entity_count": 15
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Bertha",
+        "born in",
+        "863"
+      ],
+      [
+        "Bertha",
+        "died in",
+        "March 925"
+      ],
+      [
+        "Bertha",
+        "died in",
+        "Lucca"
+      ],
+      [
+        "Bertha",
+        "was",
+        "countess of Arles"
+      ],
+      [
+        "Bertha",
+        "married to",
+        "Theobald of Arles"
+      ],
+      [
+        "Bertha",
+        "was",
+        "margravine of Tuscany"
+      ],
+      [
+        "Bertha",
+        "married to",
+        "Adalbert II of Tuscany"
+      ],
+      [
+        "Bertha",
+        "served as",
+        "regent of Lucca"
+      ],
+      [
+        "Bertha",
+        "served as",
+        "regent of Tuscany"
+      ],
+      [
+        "Bertha",
+        "regent from",
+        "915"
+      ],
+      [
+        "Bertha",
+        "regent until",
+        "916"
+      ],
+      [
+        "Bertha",
+        "regent during minority of",
+        "Guy of Tuscany"
+      ],
+      [
+        "Bertha",
+        "daughter of",
+        "Lothair II"
+      ],
+      [
+        "Lothair II",
+        "was",
+        "King of Lotharingia"
+      ],
+      [
+        "Bertha",
+        "daughter of",
+        "Waldrada"
+      ],
+      [
+        "Bertha",
+        "daughter status",
+        "second illegitimate daughter"
+      ]
+    ],
+    "triple_count": 16
+  }
+},
+{
+  "passage_id": 8,
+  "title": "Adolf I of Lotharingia",
+  "text": "Adolf I of Lotharingia, count of Keldachgau, Vogt of Deutz from 1008 until 1018, was the son of Hermann I\" Pusillus\"( the Little Pfalzgraf), count palatine of Lotharingia. He left three sons:",
+  "extracted_entities": {
+    "entities": [
+      "Adolf I of Lotharingia",
+      "Keldachgau",
+      "Deutz",
+      "1008",
+      "1018",
+      "Hermann I Pusillus",
+      "Lotharingia"
+    ],
+    "entity_count": 7
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Adolf I of Lotharingia",
+        "title",
+        "count of Keldachgau"
+      ],
+      [
+        "Adolf I of Lotharingia",
+        "title",
+        "Vogt of Deutz"
+      ],
+      [
+        "Adolf I of Lotharingia",
+        "held position from",
+        "1008"
+      ],
+      [
+        "Adolf I of Lotharingia",
+        "held position until",
+        "1018"
+      ],
+      [
+        "Adolf I of Lotharingia",
+        "son of",
+        "Hermann I Pusillus"
+      ],
+      [
+        "Hermann I Pusillus",
+        "title",
+        "count palatine of Lotharingia"
+      ]
+    ],
+    "triple_count": 6
+  }
+},
+{
+  "passage_id": 9,
+  "title": "Waldrada of Lotharingia",
+  "text": "Waldrada was the mistress, and later the wife, of Lothair II of Lotharingia.",
+  "extracted_entities": {
+    "entities": [
+      "Waldrada",
+      "Lothair II",
+      "Lotharingia"
+    ],
+    "entity_count": 3
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Waldrada",
+        "was mistress of",
+        "Lothair II"
+      ],
+      [
+        "Waldrada",
+        "was wife of",
+        "Lothair II"
+      ],
+      [
+        "Lothair II",
+        "ruled",
+        "Lotharingia"
+      ]
+    ],
+    "triple_count": 3
+  }
+},
+{
+  "passage_id": 10,
+  "title": "Theobald of Arles",
+  "text": "Theobald( c. 854-895), count of Arles, was a Frank from the Bosonid- family. He was a son of Hucbert and married Bertha, an illegitimate daughter of Lothair II, King of Lotharingia, who was renowned for her beauty and spirit. They had two sons Hugh of Italy and Boso of Tuscany.",
+  "extracted_entities": {
+    "entities": [
+      "Theobald",
+      "Arles",
+      "Bosonid",
+      "Hucbert",
+      "Bertha",
+      "Lothair II",
+      "King of Lotharingia",
+      "Hugh of Italy",
+      "Boso of Tuscany"
+    ],
+    "entity_count": 9
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Theobald",
+        "title",
+        "count of Arles"
+      ],
+      [
+        "Theobald",
+        "from family",
+        "Bosonid"
+      ],
+      [
+        "Theobald",
+        "son of",
+        "Hucbert"
+      ],
+      [
+        "Theobald",
+        "married",
+        "Bertha"
+      ],
+      [
+        "Bertha",
+        "daughter of",
+        "Lothair II"
+      ],
+      [
+        "Lothair II",
+        "title",
+        "King of Lotharingia"
+      ],
+      [
+        "Bertha",
+        "described as",
+        "renowned for her beauty and spirit"
+      ],
+      [
+        "Theobald",
+        "father of",
+        "Hugh of Italy"
+      ],
+      [
+        "Theobald",
+        "father of",
+        "Boso of Tuscany"
+      ]
+    ],
+    "triple_count": 9
+  }
+},
+{
+  "passage_id": 11,
+  "title": "The Wonderful World of Captain Kuhio",
+  "text": "The film was released in Japan on 10 October 2009.",
+  "extracted_entities": {
+    "entities": [
+      "Japan",
+      "10 October 2009"
+    ],
+    "entity_count": 2
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "The film",
+        "was released in",
+        "Japan"
+      ],
+      [
+        "The film",
+        "was released on",
+        "10 October 2009"
+      ]
+    ],
+    "triple_count": 2
+  }
+},
+{
+  "passage_id": 12,
+  "title": "Coney Island Baby (film)",
+  "text": "Coney Island Baby is a 2003 comedy- drama in which film producer Amy Hobby made her directorial debut. Karl Geary wrote the film and Tanya Ryno was the film's producer. The music was composed by Ryan Shore. The film was shot in Sligo, Ireland, which is known locally as\" Coney Island\". The film was screened at the Newport International Film Festival. Hobby won the Jury Award for\" Best First Time Director\". The film made its premiere television broadcast on the Sundance Channel.",
+  "extracted_entities": {
+    "entities": [
+      "Coney Island Baby",
+      "2003",
+      "Amy Hobby",
+      "Karl Geary",
+      "Tanya Ryno",
+      "Ryan Shore",
+      "Sligo",
+      "Ireland",
+      "Coney Island",
+      "Newport International Film Festival",
+      "Jury Award",
+      "Best First Time Director",
+      "Sundance Channel"
+    ],
+    "entity_count": 13
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Coney Island Baby",
+        "is a",
+        "2003 comedy-drama"
+      ],
+      [
+        "Amy Hobby",
+        "made directorial debut with",
+        "Coney Island Baby"
+      ],
+      [
+        "Karl Geary",
+        "wrote",
+        "Coney Island Baby"
+      ],
+      [
+        "Tanya Ryno",
+        "produced",
+        "Coney Island Baby"
+      ],
+      [
+        "Ryan Shore",
+        "composed music for",
+        "Coney Island Baby"
+      ],
+      [
+        "Coney Island Baby",
+        "was shot in",
+        "Sligo"
+      ],
+      [
+        "Sligo",
+        "is located in",
+        "Ireland"
+      ],
+      [
+        "Sligo",
+        "is known locally as",
+        "Coney Island"
+      ],
+      [
+        "Coney Island Baby",
+        "screened at",
+        "Newport International Film Festival"
+      ],
+      [
+        "Amy Hobby",
+        "won",
+        "Jury Award"
+      ],
+      [
+        "Jury Award",
+        "was for",
+        "Best First Time Director"
+      ],
+      [
+        "Coney Island Baby",
+        "premiered on",
+        "Sundance Channel"
+      ]
+    ],
+    "triple_count": 12
+  }
+},
+{
+  "passage_id": 13,
+  "title": "Lloyd (film)",
+  "text": "Lloyd is a 2001 American comedy film. The film was released on May 4, 2001.",
+  "extracted_entities": {
+    "entities": [
+      "Lloyd",
+      "2001",
+      "American",
+      "May 4, 2001"
+    ],
+    "entity_count": 4
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Lloyd",
+        "is a",
+        "2001 American comedy film"
+      ],
+      [
+        "Lloyd",
+        "released on",
+        "May 4, 2001"
+      ]
+    ],
+    "triple_count": 2
+  }
+},
+{
+  "passage_id": 14,
+  "title": "Rakka (film)",
+  "text": "The film was released on YouTube and Steam on 14 June 2017.",
+  "extracted_entities": {
+    "entities": [
+      "YouTube",
+      "Steam",
+      "14 June 2017"
+    ],
+    "entity_count": 3
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "The film",
+        "released on",
+        "YouTube"
+      ],
+      [
+        "The film",
+        "released on",
+        "Steam"
+      ],
+      [
+        "The film",
+        "release date",
+        "14 June 2017"
+      ]
+    ],
+    "triple_count": 3
+  }
+},
+{
+  "passage_id": 15,
+  "title": "Empties",
+  "text": "Empties is a 2007 film directed by Jan Svěrák and written by his father Zdeněk Svěrák, who also stars in the film. It was released first in the Czech Republic in March 2007. The film is a comedy from the same team which made Kolya.",
+  "extracted_entities": {
+    "entities": [
+      "Empties",
+      "2007",
+      "Jan Svěrák",
+      "Zdeněk Svěrák",
+      "Czech Republic",
+      "March 2007",
+      "Kolya"
+    ],
+    "entity_count": 7
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Empties",
+        "is a",
+        "film"
+      ],
+      [
+        "Empties",
+        "released in",
+        "2007"
+      ],
+      [
+        "Empties",
+        "directed by",
+        "Jan Svěrák"
+      ],
+      [
+        "Empties",
+        "written by",
+        "Zdeněk Svěrák"
+      ],
+      [
+        "Zdeněk Svěrák",
+        "stars in",
+        "Empties"
+      ],
+      [
+        "Empties",
+        "released in",
+        "Czech Republic"
+      ],
+      [
+        "Empties",
+        "release date",
+        "March 2007"
+      ],
+      [
+        "Empties",
+        "genre",
+        "comedy"
+      ],
+      [
+        "Empties",
+        "made by same team as",
+        "Kolya"
+      ]
+    ],
+    "triple_count": 9
+  }
+},
+{
+  "passage_id": 16,
+  "title": "Invasion of the Neptune Men",
+  "text": "The film was released in 1961 in Japan and was later released in the United States on television. In 1998, the film was featured on an episode of\" Mystery Science Theater 3000\".",
+  "extracted_entities": {
+    "entities": [
+      "1961",
+      "Japan",
+      "United States",
+      "1998",
+      "Mystery Science Theater 3000"
+    ],
+    "entity_count": 5
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "The film",
+        "was released in",
+        "1961"
+      ],
+      [
+        "The film",
+        "was released in",
+        "Japan"
+      ],
+      [
+        "The film",
+        "was later released in",
+        "United States"
+      ],
+      [
+        "The film",
+        "was featured on",
+        "Mystery Science Theater 3000"
+      ],
+      [
+        "The film",
+        "was featured in year",
+        "1998"
+      ]
+    ],
+    "triple_count": 5
+  }
+},
+{
+  "passage_id": 17,
+  "title": "Single Video Theory",
+  "text": "Single Video Theory is a music documentary directed by Mark Pellington that follows the making of \"Yield\", the fifth album by the American alternative rock band Pearl Jam. It was released first on VHS on August 4, 1998, and then on DVD on November 24, 1998.",
+  "extracted_entities": {
+    "entities": [
+      "Single Video Theory",
+      "Mark Pellington",
+      "Yield",
+      "Pearl Jam",
+      "VHS",
+      "August 4, 1998",
+      "DVD",
+      "November 24, 1998"
+    ],
+    "entity_count": 8
+  },
+  "extracted_triples": {
+    "triples": [
+      [
+        "Single Video Theory",
+        "is",
+        "music documentary"
+      ],
+      [
+        "Single Video Theory",
+        "directed by",
+        "Mark Pellington"
+      ],
+      [
+        "Single Video Theory",
+        "follows making of",
+        "Yield"
+      ],
+      [
+        "Yield",
+        "is album by",
+        "Pearl Jam"
+      ],
+      [
+        "Yield",
+        "is fifth album by",
+        "Pearl Jam"
+      ],
+      [
+        "Pearl Jam",
+        "is",
+        "American alternative rock band"
+      ],
+      [
+        "Single Video Theory",
+        "released on",
+        "VHS"
+      ],
+      [
+        "Single Video Theory",
+        "released on date",
+        "August 4, 1998"
+      ],
+      [
+        "Single Video Theory",
+        "released on",
+        "DVD"
+      ],
+      [
+        "Single Video Theory",
+        "released on date",
+        "November 24, 1998"
+      ]
+    ],
+    "triple_count": 10
+  }
+}
+]
