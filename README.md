@@ -164,13 +164,11 @@ If you find this work useful, please consider citing our papers:
 ```
 ```
 
-## ✅ Roadmap / TODO
+## Roadmap / TODO
 
 - [x] **Extended Embedding Support** → Added compatibility with multiple embedding models  
 - [x] **Endpoint Flexibility** → Integrated support for custom embedding endpoints  
-- [ ] **Vector Database Integration** → Upcoming support for advanced vector DB backends (e.g., Pinecone, Weaviate, FAISS, Milvus)  
-
----
+- [ ] **Vector Database Integration** → Upcoming support for advanced vector DB backends (e.g., Pinecone, Weaviate, FAISS, Milvus)
 
 💡 Have ideas or feature requests?  
 We welcome **issues**, **discussions**, and **pull requests** to help shape the future of **ProPEX-RAG** 🚀
