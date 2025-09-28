@@ -22,7 +22,7 @@ This design achieves high performance on complex QA tasks while maintaining scal
 
 * [**PROPEX-RAG: Enhanced GraphRAG using Prompt Driven Prompt Execution**](https://arxiv.org/abs/<your_id>) [PReMI '25].
 
-----
+--
 
 ### Environment Setup
 
@@ -92,7 +92,6 @@ ProPEX-RAG follows a **prompt-driven, entity-guided pipeline** with the followin
 4. **Evidence Projection** → Projects entity scores back onto passages
 5. **Reranking** → Reorders Top-k passages using entity overlap, title boosts, and coherent multi-hop paths
 6. **Answer Synthesis** → Prompts over the selected passages and extracts the final answer with provenance
----
 
 📌 **Illustrative Example**
 - **Question:**  
