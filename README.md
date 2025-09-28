@@ -55,9 +55,9 @@ Edit config.py to plug in your desired provider.
 LLM_PROVIDER = "openai"
 OPENAI_API_KEY = "<your_openai_api_key>"
 OPENAI_ENDPOINT = "<your_openai_endpoint_url>"
-OPENAI_DEPLOYMENT_NAME = "gpt-4.1-mini"
+OPENAI_DEPLOYMENT_NAME = "<your_openai_model>"
+OPENAI_EMBEDDING_DEPLOYMENT = "<your_openai_embedding_model>"
 ```
-OPENAI_EMBEDDING_DEPLOYMENT = "text-embedding-3-large"
 
 ```bash
 For local/offline models (e.g., LLaMA, HuggingFace):
@@ -75,7 +75,7 @@ python main.py
 ```
 This step extracts entities, fact triples, and builds the graph the knowledge garph.
 
-4. Run Retrieval & QA
+### 4. Run Retrieval & QA
 To run retrieval and answer questions:
 ```bash
 python rag_ppr_retriever.py --question "When did Maradona sign with Barcelona?"
@@ -84,21 +84,28 @@ Retrieval Process: rag_ppr_retriever.py
 QA Pipeline: qa_pipeline.py
 
 ### 5. Example Demo
-ProPEX-RAG follows a prompt-driven, entity-guided pipeline:
+ProPEX-RAG follows a **prompt-driven, entity-guided pipeline** with the following steps:
+1. **Entity Extraction** → Identifies key entities from the query  
+   *Example:* `Messi, Barcelona, Copa del Rey`
+2. **Graph Traversal** → Expands with aliases and traverses neighbors using Personalized PageRank (PPR)
+3. **Fact Filtering** → Keeps only the most relevant fact triples  
+   *Example:* `Messi → compared_to → Maradona, Maradona → signed_by → Barcelona`
+4. **Evidence Projection** → Projects entity scores back onto passages
+5. **Reranking** → Reorders Top-k passages using entity overlap, title boosts, and coherent multi-hop paths
+6. **Answer Synthesis** → Prompts over the selected passages and extracts the final answer with provenance
+---
 
-Entity Extraction → Identifies key entities from the query (e.g., Messi, Barcelona, Copa del Rey).
-Graph Traversal → Expands with aliases and traverses neighbors using Personalized PageRank (PPR).
-Fact Filtering → Keeps only relevant fact triples (e.g., Messi compared_to Maradona, Maradona signed_by Barcelona).
-Evidence Projection → Projects entity scores back onto passages.
-Reranking → Reorders Top-k passages using entity overlap, title boosts, and coherent multi-hop paths.
-Answer Synthesis → Prompts over selected passages and extracts the final answer with provenance.
-
-📌 Example:
-Question: “When was Maradona signed by Barcelona?”
-Extracted Entities: {Messi, Maradona, Barcelona}
-Graph Traversal: Messi → compared_to → Maradona → signed_by → Barcelona
-Reranked Evidence: Passage P₁ (FC Barcelona) surfaced to top
-Synthesized Answer: “June 1982”
+📌 **Illustrative Example**
+- **Question:**  
+  *When was Maradona signed by Barcelona?*
+- **Extracted Entities:**  
+  `{Messi, Maradona, Barcelona}`
+- **Graph Traversal:**  
+  `Messi → compared_to → Maradona → signed_by → Barcelona`
+- **Reranked Evidence:**  
+  Passage **P₁ (FC Barcelona)** surfaced to the top
+- **Synthesized Answer:**  
+  **June 1982**
 
 ## Code Structure
 
