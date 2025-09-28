@@ -22,7 +22,7 @@ This design achieves high performance on complex QA tasks while maintaining scal
 
 * [**PROPEX-RAG: Enhanced GraphRAG using Prompt Driven Prompt Execution**](https://arxiv.org/abs/<your_id>) [PReMI '25].
 
---
+----
 
 ### Environment Setup
 
@@ -83,33 +83,32 @@ python rag_ppr_retriever.py --question "When did Maradona sign with Barcelona?"
 * QA Pipeline: qa_pipeline.py
 
 ### 5. Example Demo
-ProPEX-RAG follows a **prompt-driven, entity-guided pipeline** with the following steps:
-1. **Entity Extraction** → Identifies key entities from the query  
+ProPEX-RAG follows a prompt-driven, entity-guided pipeline with the following steps:
+1. Entity Extraction → Identifies key entities from the query  
    *Example:* `Messi, Barcelona, Copa del Rey`
-2. **Graph Traversal** → Expands with aliases and traverses neighbors using Personalized PageRank (PPR)
-3. **Fact Filtering** → Keeps only the most relevant fact triples  
+2. Graph Traversal → Expands with aliases and traverses neighbors using Personalized PageRank (PPR)
+3. Fact Filtering → Keeps only the most relevant fact triples  
    *Example:* `Messi → compared_to → Maradona, Maradona → signed_by → Barcelona`
-4. **Evidence Projection** → Projects entity scores back onto passages
-5. **Reranking** → Reorders Top-k passages using entity overlap, title boosts, and coherent multi-hop paths
-6. **Answer Synthesis** → Prompts over the selected passages and extracts the final answer with provenance
+4. Evidence Projection → Projects entity scores back onto passages
+5. Reranking → Reorders Top-k passages using entity overlap, title boosts, and coherent multi-hop paths
+6. Answer Synthesis → Prompts over the selected passages and extracts the final answer with provenance
 
-📌 **Illustrative Example**
-- **Question:**  
+📌 *Illustrative Example*
+- Question: 
   *When was Maradona signed by Barcelona?*
-- **Extracted Entities:**  
+- Extracted Entities: 
   `{Messi, Maradona, Barcelona}`
-- **Graph Traversal:**  
+- Graph Traversal:  
   `Messi → compared_to → Maradona → signed_by → Barcelona`
-- **Reranked Evidence:**  
-  Passage **P₁ (FC Barcelona)** surfaced to the top
-- **Synthesized Answer:**  
-  **June 1982**
+- Reranked Evidence:
+  Passage P₁ (FC Barcelona) surfaced to the top
+- Synthesized Answer:  
+  June 1982
 
 ## Code Structure
 
-### 📂 ProPEX-RAG
 ```bash
-ProPEX-RAG/
+📂ProPEX-RAG/
 ├── 📄 README.md                   # Project documentation
 ├── 📄 LICENSE                     # License file
 ├── 📄 requirements.txt            # Python dependencies
@@ -165,10 +164,13 @@ If you find this work useful, please consider citing our papers:
 ```
 ```
 
-## TODO:
+## ✅ Roadmap / TODO
 
-- [x] Add support for more embedding models
-- [x] Add support for embedding endpoints
-- [ ] Add support for vector database integration
+- [x] **Extended Embedding Support** → Added compatibility with multiple embedding models  
+- [x] **Endpoint Flexibility** → Integrated support for custom embedding endpoints  
+- [ ] **Vector Database Integration** → Upcoming support for advanced vector DB backends (e.g., Pinecone, Weaviate, FAISS, Milvus)  
 
-Please feel free to open an issue or PR if you have any questions or suggestions.
+---
+
+💡 Have ideas or feature requests?  
+We welcome **issues**, **discussions**, and **pull requests** to help shape the future of **ProPEX-RAG** 🚀
