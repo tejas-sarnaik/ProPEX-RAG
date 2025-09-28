@@ -1,10 +1,9 @@
 <h1 align="center">PROPEX-RAG: Enhanced GraphRAG using Prompt Driven Prompt Execution</h1>
 
-[<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg" />](https://colab.research.google.com)
-
 [<img align="center" src="https://img.shields.io/badge/arXiv-ProPEX--RAG-b31b1b" />](https://arxiv.org/abs/<your_id>)
 [<img align="center" src="https://img.shields.io/badge/🤗 Dataset-ProPEX--RAG-yellow" />](https://huggingface.co/datasets/tejas-sarnaik/ProPEX-RAG/tree/main)
 [<img align="center" src="https://img.shields.io/badge/GitHub-ProPEX--RAG-blue" />](https://github.com/tejas-sarnaik/ProPEX-RAG.git)
+[<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg" />](https://colab.research.google.com)
 
 ### ProPEX-RAG is a prompt-driven, entity-guided RAG framework that emphasizes the role of prompt design in improving retrieval and reasoning across large knowledge graphs.
 
@@ -80,8 +79,8 @@ To run retrieval and answer questions:
 ```bash
 python rag_ppr_retriever.py --question "When did Maradona sign with Barcelona?"
 ```
-Retrieval Process: rag_ppr_retriever.py
-QA Pipeline: qa_pipeline.py
+* Retrieval Process: rag_ppr_retriever.py
+* QA Pipeline: qa_pipeline.py
 
 ### 5. Example Demo
 ProPEX-RAG follows a **prompt-driven, entity-guided pipeline** with the following steps:
@@ -109,7 +108,7 @@ ProPEX-RAG follows a **prompt-driven, entity-guided pipeline** with the followin
 
 ## Code Structure
 
-# 📂 ProPEX-RAG Project Structur
+### 📂 ProPEX-RAG
 ```bash
 ProPEX-RAG/
 ├── 📄 README.md                   # Project documentation
