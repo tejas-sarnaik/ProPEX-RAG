@@ -90,6 +90,9 @@ ProPEX-RAG/
 ├── 📁 final_output_dataset/       # Final processed datasets
 └── 📁 __pycache__/                # Python cache files
 
+
+```
+
 ## Contact
 
 Questions or issues? File an issue or contact 
@@ -101,7 +104,6 @@ If you find this work useful, please consider citing our papers:
 
 ### ProPEX-RAG
 ```
-
 ```
 
 ## TODO:
