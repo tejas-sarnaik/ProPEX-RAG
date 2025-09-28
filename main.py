@@ -19,7 +19,7 @@ from knowledge_graph_core import (
 )
 
 def build_knowledge_graph_pipeline():
-    print("\n🚀 Launching Knowledge Graph Pipeline")
+    print("\n Launching Knowledge Graph Pipeline")
     print("==============================================")
 
     # Ordered steps
@@ -41,16 +41,16 @@ def build_knowledge_graph_pipeline():
 
     # Run steps
     for i, (desc, func) in enumerate(steps, 1):
-        print(f"\n📍 Step {i}: {desc}")
+        print(f"\n Step {i}: {desc}")
         print("-" * 50)
         success = func()
         if not success:
-            print(f"❌ Step {i} failed: {desc}")
+            print(f" Step {i} failed: {desc}")
             return
         print(f"✅ Step {i} completed successfully")
         gc.collect()
 
-    print("\n🎉 Knowledge Graph construction complete!\n")
+    print("\n Knowledge Graph construction complete!\n")
 
 if __name__ == "__main__":
     kg_builder.json_file_path = "./output_directory/output_entity_facts_triplets/1_passage_data_with_ner_triples.json"

@@ -1,7 +1,3 @@
-## New Approach 25_06_2025 Knowlage_graph_core.py ###
-# Updated Knowledge Graph Builder Functions
-
-
 import json
 import numpy as np
 import networkx as nx

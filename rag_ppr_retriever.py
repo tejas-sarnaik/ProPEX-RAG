@@ -1,6 +1,4 @@
 ####################################################################################################################################
-#### The following approach is testing the pass the triples and passages in the prompt to answer generating process on 23/07/25 ####
-### The final F1 score is come by using following approach is 76.84 testting on 1000QA with prompt change on 24/07/2025 ###
 import os
 import json
 import numpy as np
