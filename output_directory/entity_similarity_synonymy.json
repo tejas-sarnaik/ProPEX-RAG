@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "total_entities": 131,
+    "similarity_threshold": 0.7,
+    "total_pairs": 31
+  },
+  "pairs": [
+    {
+      "entity1": "Lothair II",
+      "entity2": "Lotharingia",
+      "similarity": 0.7152035236358643
+    },
+    {
+      "entity1": "Lothair II",
+      "entity2": "Carolingian Emperor Lothair I",
+      "similarity": 0.7911877632141113
+    },
+    {
+      "entity1": "Lothair II",
+      "entity2": "Lothair",
+      "similarity": 0.9056429862976074
+    },
+    {
+      "entity1": "Lothair II",
+      "entity2": "Lothair II of Lotharingia",
+      "similarity": 0.9415011405944824
+    },
+    {
+      "entity1": "Lothair II",
+      "entity2": "Emperor Lothair I",
+      "similarity": 0.8126785159111023
+    },
+    {
+      "entity1": "Lothair II",
+      "entity2": "King of Lotharingia",
+      "similarity": 0.7049474120140076
+    },
+    {
+      "entity1": "Boso of Tuscany",
+      "entity2": "Boso the Elder",
+      "similarity": 0.7348473072052002
+    },
+    {
+      "entity1": "875",
+      "entity2": "855",
+      "similarity": 0.7027811408042908
+    },
+    {
+      "entity1": "August 4, 1998",
+      "entity2": "November 24, 1998",
+      "similarity": 0.7188666462898254
+    },
+    {
+      "entity1": "916",
+      "entity2": "915",
+      "similarity": 0.7448025941848755
+    },
+    {
+      "entity1": "Adolf I of Lotharingia",
+      "entity2": "King of Lotharingia",
+      "similarity": 0.7060317993164062
+    },
+    {
+      "entity1": "Bishop of Elmham",
+      "entity2": "Elmham",
+      "similarity": 0.7911779880523682
+    },
+    {
+      "entity1": "1008",
+      "entity2": "1018",
+      "similarity": 0.7061557173728943
+    },
+    {
+      "entity1": "Zden\u011bk Sv\u011br\u00e1k",
+      "entity2": "Jan Sv\u011br\u00e1k",
+      "similarity": 0.8624913096427917
+    },
+    {
+      "entity1": "Boso the Elder",
+      "entity2": "Boso",
+      "similarity": 0.7332816123962402
+    },
+    {
+      "entity1": "Boso the Elder",
+      "entity2": "Bosonid Boso the Elder",
+      "similarity": 0.8160609006881714
+    },
+    {
+      "entity1": "regent of Lucca",
+      "entity2": "regent of Tuscany",
+      "similarity": 0.7746745944023132
+    },
+    {
+      "entity1": "Theobald",
+      "entity2": "Theobald of Arles",
+      "similarity": 0.7231703400611877
+    },
+    {
+      "entity1": "931",
+      "entity2": "915",
+      "similarity": 0.7170660495758057
+    },
+    {
+      "entity1": "Lotharingia",
+      "entity2": "Lothair",
+      "similarity": 0.7417754530906677
+    },
+    {
+      "entity1": "Lotharingia",
+      "entity2": "Lothair II of Lotharingia",
+      "similarity": 0.727581262588501
+    },
+    {
+      "entity1": "Carolingian Emperor Lothair I",
+      "entity2": "Lothair",
+      "similarity": 0.7975783348083496
+    },
+    {
+      "entity1": "Carolingian Emperor Lothair I",
+      "entity2": "Lothair II of Lotharingia",
+      "similarity": 0.7921860814094543
+    },
+    {
+      "entity1": "Carolingian Emperor Lothair I",
+      "entity2": "Emperor Lothair I",
+      "similarity": 0.9106960892677307
+    },
+    {
+      "entity1": "Carolingian Emperor Lothair I",
+      "entity2": "King of Lotharingia",
+      "similarity": 0.7063026428222656
+    },
+    {
+      "entity1": "1963",
+      "entity2": "1961",
+      "similarity": 0.7313132882118225
+    },
+    {
+      "entity1": "Lothair",
+      "entity2": "Lothair II of Lotharingia",
+      "similarity": 0.8554165959358215
+    },
+    {
+      "entity1": "Lothair",
+      "entity2": "Emperor Lothair I",
+      "similarity": 0.8133316040039062
+    },
+    {
+      "entity1": "Hugh of Tours",
+      "entity2": "Hugh of Italy",
+      "similarity": 0.7190223336219788
+    },
+    {
+      "entity1": "Lothair II of Lotharingia",
+      "entity2": "Emperor Lothair I",
+      "similarity": 0.788686990737915
+    },
+    {
+      "entity1": "Lothair II of Lotharingia",
+      "entity2": "King of Lotharingia",
+      "similarity": 0.7548528909683228
+    }
+  ]
+}

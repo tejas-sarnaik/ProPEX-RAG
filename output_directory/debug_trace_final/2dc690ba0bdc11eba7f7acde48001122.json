@@ -1,0 +1,247 @@
+{
+  "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+  "question": "What is the place of birth of the performer of song Changed It?",
+  "query_entities": [
+    "The Bronx",
+    "New York",
+    "Coney Island Baby",
+    "August 4, 1998",
+    "Venice, California",
+    "American",
+    "1989",
+    "Tanya Ryno",
+    "November 24, 1998",
+    "United States"
+  ],
+  "top_raw_facts": [
+    {
+      "passage_id": 12,
+      "triple": [
+        "Tanya Ryno",
+        "produced",
+        "Coney Island Baby"
+      ]
+    },
+    {
+      "passage_id": 4,
+      "triple": [
+        "The Bronx",
+        "located in",
+        "New York"
+      ]
+    },
+    {
+      "passage_id": 12,
+      "triple": [
+        "Coney Island Baby",
+        "was shot in",
+        "Sligo"
+      ]
+    },
+    {
+      "passage_id": 13,
+      "triple": [
+        "Lloyd",
+        "released on",
+        "May 4, 2001"
+      ]
+    },
+    {
+      "passage_id": 4,
+      "triple": [
+        "Etan Boritzer",
+        "lives in",
+        "Venice, California"
+      ]
+    },
+    {
+      "passage_id": 4,
+      "triple": [
+        "Etan Boritzer",
+        "born in",
+        "1950"
+      ]
+    },
+    {
+      "passage_id": 12,
+      "triple": [
+        "Ryan Shore",
+        "composed music for",
+        "Coney Island Baby"
+      ]
+    },
+    {
+      "passage_id": 12,
+      "triple": [
+        "Karl Geary",
+        "wrote",
+        "Coney Island Baby"
+      ]
+    },
+    {
+      "passage_id": 12,
+      "triple": [
+        "Amy Hobby",
+        "made directorial debut with",
+        "Coney Island Baby"
+      ]
+    },
+    {
+      "passage_id": 4,
+      "triple": [
+        "Wade Junior High School",
+        "located in",
+        "The Bronx"
+      ]
+    }
+  ],
+  "filtered_facts": [],
+  "seed_entities": [
+    [
+      "The Bronx",
+      0.2992038954582224
+    ],
+    [
+      "New York",
+      0.2362284754010422
+    ],
+    [
+      "Coney Island Baby",
+      0.2352670073821374
+    ],
+    [
+      "August 4, 1998",
+      0.23260025497812514
+    ],
+    [
+      "Venice, California",
+      0.22361992659164254
+    ],
+    [
+      "American",
+      0.21817987354340548
+    ],
+    [
+      "1989",
+      0.2022259063963468
+    ],
+    [
+      "Tanya Ryno",
+      0.18827440247668636
+    ],
+    [
+      "November 24, 1998",
+      0.18264581337997712
+    ],
+    [
+      "United States",
+      0.17852576559173927
+    ]
+  ],
+  "propagated_entities_top10": [
+    {
+      "name": "November 24, 1998",
+      "score": 0.46176611935372724
+    },
+    {
+      "name": "August 4, 1998",
+      "score": 0.45177523103409767
+    },
+    {
+      "name": "The Bronx",
+      "score": 0.3936952856186393
+    },
+    {
+      "name": "Single Video Theory",
+      "score": 0.36541654015513
+    },
+    {
+      "name": "New York",
+      "score": 0.35591003358433115
+    },
+    {
+      "name": "Coney Island Baby",
+      "score": 0.31057676837281195
+    },
+    {
+      "name": "Tanya Ryno",
+      "score": 0.2823812054295413
+    },
+    {
+      "name": "Venice, California",
+      "score": 0.22361992659164254
+    },
+    {
+      "name": "American",
+      "score": 0.21817987354340548
+    },
+    {
+      "name": "1989",
+      "score": 0.2022259063963468
+    }
+  ],
+  "top_30_passages_before_rerank": [
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 4,
+      "title": "Etan Boritzer",
+      "score": 1.5549190142061016
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 17,
+      "title": "Single Video Theory",
+      "score": 1.2789578905429548
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 12,
+      "title": "Coney Island Baby (film)",
+      "score": 1.6575987915194832
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 13,
+      "title": "Lloyd (film)",
+      "score": 0.21817987354340548
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 16,
+      "title": "Invasion of the Neptune Men",
+      "score": 0.17852576559173927
+    }
+  ],
+  "final_top_5_passages": [
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 12,
+      "title": "Coney Island Baby (film)",
+      "score": 1.6575987915194832
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 4,
+      "title": "Etan Boritzer",
+      "score": 1.5549190142061016
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 17,
+      "title": "Single Video Theory",
+      "score": 1.2789578905429548
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 13,
+      "title": "Lloyd (film)",
+      "score": 0.21817987354340548
+    },
+    {
+      "question_id": "2dc690ba0bdc11eba7f7acde48001122",
+      "passage_id": 16,
+      "title": "Invasion of the Neptune Men",
+      "score": 0.17852576559173927
+    }
+  ]
+}

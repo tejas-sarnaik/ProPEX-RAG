@@ -1,0 +1,283 @@
+{
+  "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+  "question": "Are Marufabad and Nasamkhrali both located in the same country?",
+  "query_entities": [
+    "United States",
+    "Japan",
+    "Elmham",
+    "St. Maurice's Abbey",
+    "Ireland",
+    "Marozia",
+    "20 March 851",
+    "Czech Republic",
+    "March 925",
+    "margravine of Tuscany"
+  ],
+  "top_raw_facts": [
+    {
+      "passage_id": 3,
+      "triple": [
+        "Hugh",
+        "married",
+        "Marozia"
+      ]
+    },
+    {
+      "passage_id": 12,
+      "triple": [
+        "Sligo",
+        "is located in",
+        "Ireland"
+      ]
+    },
+    {
+      "passage_id": 6,
+      "triple": [
+        "abbey Erstein",
+        "located in",
+        "Elsass"
+      ]
+    },
+    {
+      "passage_id": 3,
+      "triple": [
+        "Marozia",
+        "was widow of",
+        "Guy"
+      ]
+    },
+    {
+      "passage_id": 16,
+      "triple": [
+        "The film",
+        "was later released in",
+        "United States"
+      ]
+    },
+    {
+      "passage_id": 4,
+      "triple": [
+        "The Bronx",
+        "located in",
+        "New York"
+      ]
+    },
+    {
+      "passage_id": 1,
+      "triple": [
+        "Hucbert",
+        "was lay-abbot of",
+        "St. Maurice's Abbey"
+      ]
+    },
+    {
+      "passage_id": 3,
+      "triple": [
+        "Guy",
+        "was margrave of",
+        "Tuscany"
+      ]
+    },
+    {
+      "passage_id": 7,
+      "triple": [
+        "Bertha",
+        "was",
+        "margravine of Tuscany"
+      ]
+    },
+    {
+      "passage_id": 3,
+      "triple": [
+        "Lambert",
+        "was margrave of",
+        "Tuscany"
+      ]
+    }
+  ],
+  "filtered_facts": [],
+  "seed_entities": [
+    [
+      "United States",
+      0.18500665223685642
+    ],
+    [
+      "Japan",
+      0.18205826456257723
+    ],
+    [
+      "Elmham",
+      0.16742467445551137
+    ],
+    [
+      "St. Maurice's Abbey",
+      0.1590641045364531
+    ],
+    [
+      "Ireland",
+      0.15877007516890898
+    ],
+    [
+      "Marozia",
+      0.1451496473687289
+    ],
+    [
+      "20 March 851",
+      0.14084248149006068
+    ],
+    [
+      "Czech Republic",
+      0.12626211757058364
+    ],
+    [
+      "March 925",
+      0.12480137540822614
+    ],
+    [
+      "margravine of Tuscany",
+      0.11875668177752664
+    ]
+  ],
+  "propagated_entities_top10": [
+    {
+      "name": "Bishop of Elmham",
+      "score": 0.2678794791288182
+    },
+    {
+      "name": "Elmham",
+      "score": 0.24778851819415684
+    },
+    {
+      "name": "United States",
+      "score": 0.18500665223685642
+    },
+    {
+      "name": "Japan",
+      "score": 0.18205826456257723
+    },
+    {
+      "name": "St. Maurice's Abbey",
+      "score": 0.1590641045364531
+    },
+    {
+      "name": "Ireland",
+      "score": 0.15877007516890898
+    },
+    {
+      "name": "Marozia",
+      "score": 0.1451496473687289
+    },
+    {
+      "name": "20 March 851",
+      "score": 0.14084248149006068
+    },
+    {
+      "name": "Czech Republic",
+      "score": 0.12626211757058364
+    },
+    {
+      "name": "March 925",
+      "score": 0.12480137540822614
+    }
+  ],
+  "top_30_passages_before_rerank": [
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 2,
+      "title": "Theodred II (Bishop of Elmham)",
+      "score": 1.0960318410616205
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 16,
+      "title": "Invasion of the Neptune Men",
+      "score": 0.36706491679943365
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 3,
+      "title": "Lambert, Margrave of Tuscany",
+      "score": 0.35869258813801314
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 7,
+      "title": "Bertha, daughter of Lothair II",
+      "score": 0.3409812800600539
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 1,
+      "title": "Teutberga",
+      "score": 0.22268974635103433
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 12,
+      "title": "Coney Island Baby (film)",
+      "score": 0.22227810523647257
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 6,
+      "title": "Ermengarde of Tours",
+      "score": 0.19717947408608494
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 11,
+      "title": "The Wonderful World of Captain Kuhio",
+      "score": 0.18205826456257723
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 15,
+      "title": "Empties",
+      "score": 0.1767669645988171
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 10,
+      "title": "Theobald of Arles",
+      "score": 0.16104886468888235
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 5,
+      "title": "Lothair II",
+      "score": 0.056336992596024274
+    }
+  ],
+  "final_top_5_passages": [
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 2,
+      "title": "Theodred II (Bishop of Elmham)",
+      "score": 1.0960318410616205
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 16,
+      "title": "Invasion of the Neptune Men",
+      "score": 0.36706491679943365
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 3,
+      "title": "Lambert, Margrave of Tuscany",
+      "score": 0.35869258813801314
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 7,
+      "title": "Bertha, daughter of Lothair II",
+      "score": 0.3409812800600539
+    },
+    {
+      "question_id": "462bb642099211ebbdb0ac1f6bf848b6",
+      "passage_id": 1,
+      "title": "Teutberga",
+      "score": 0.22268974635103433
+    }
+  ]
+}
