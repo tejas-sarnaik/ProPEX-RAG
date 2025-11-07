@@ -1,6 +1,6 @@
 <h1 align="center">PROPEX-RAG: Enhanced GraphRAG using Prompt Driven Prompt Execution</h1>
 
-[<img align="center" src="https://img.shields.io/badge/arXiv-ProPEX--RAG-b31b1b" />](https://arxiv.org/abs/<your_id>)
+[<img align="center" src="https://img.shields.io/badge/arXiv-ProPEX--RAG-b31b1b" />](https://arxiv.org/abs/2511.01802v1)
 [<img align="center" src="https://img.shields.io/badge/🤗 Dataset-ProPEX--RAG-yellow" />](https://huggingface.co/datasets/tejas-sarnaik/ProPEX-RAG/tree/main)
 [<img align="center" src="https://img.shields.io/badge/GitHub-ProPEX--RAG-blue" />](https://github.com/tejas-sarnaik/ProPEX-RAG.git)
 [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg" />](https://colab.research.google.com)
@@ -20,7 +20,7 @@ This design achieves high performance on complex QA tasks while maintaining scal
 
 #### Check out our papers to learn more:
 
-* [**PROPEX-RAG: Enhanced GraphRAG using Prompt Driven Prompt Execution**](https://arxiv.org/abs/<your_id>) [PReMI '25].
+* [**PROPEX-RAG: Enhanced GraphRAG using Prompt Driven Prompt Execution**](https://arxiv.org/abs/2511.01802v1) [PReMI '25].
 
 ----
 
@@ -152,9 +152,13 @@ Questions or issues? File an issue or contact
 ## Citation
 
 If you find this work useful, please consider citing our papers:
-
 ### ProPEX-RAG
 ```
+@article{sarnaik2025propex,
+  title     = {PROPEX-RAG: Enhanced GraphRAG using Prompt-Driven Prompt Execution},
+  author    = {Sarnaik, Tejas and Shah, Manan and Hegde, Ravi},
+  journal   = {arXiv preprint arXiv:2511.01802},
+  year      = {2025}
 ```
 
 ## Roadmap / TODO
