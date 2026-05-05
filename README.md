@@ -20,7 +20,8 @@ This design achieves high performance on complex QA tasks while maintaining scal
 
 #### Check out our papers to learn more:
 
-* [**PROPEX-RAG: Enhanced GraphRAG using Prompt Driven Prompt Execution**](https://arxiv.org/abs/2511.01802v1) [PReMI '25].
+* [**PROPEX-RAG: Enhanced GraphRAG using Prompt Driven Prompt Execution** (Pattern Recognition and Machine Intelligence, Springer Nature)](https://doi.org/10.1007/978-3-032-18477-1_21)
+* [**PROPEX-RAG: Enhanced GraphRAG using Prompt Driven Prompt Execution**](https://arxiv.org/abs/2511.01802v1).
 
 ----
 
