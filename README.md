@@ -159,11 +159,18 @@ For bug reports, implementation questions, or suggestions, please open an issue 
 If you find this work useful, please consider citing our papers:
 ### ProPEX-RAG
 ```
-@article{sarnaik2025propex,
-  title     = {PROPEX-RAG: Enhanced GraphRAG using Prompt-Driven Prompt Execution},
+@incollection{sarnaik2026propexrag,
+  title     = {{PROPEX-RAG}: Enhanced {GraphRAG} Using Prompt-Driven Prompt Execution},
   author    = {Sarnaik, Tejas and Shah, Manan and Hegde, Ravi},
-  journal   = {arXiv preprint arXiv:2511.01802},
-  year      = {2025}
+  booktitle = {Pattern Recognition and Machine Intelligence (PReMI 2025)},
+  editor    = {Mitra, S. and Saha, S. and Panigrahi, B. K. and Sarkar, S. and Chaudhury, S.},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {16357},
+  publisher = {Springer, Cham},
+  year      = {2026},
+  doi       = {10.1007/978-3-032-18477-1_21},
+  url       = {https://doi.org/10.1007/978-3-032-18477-1_21}
+}
 ```
 
 ## Roadmap / TODO
