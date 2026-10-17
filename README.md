@@ -150,6 +150,10 @@ ProPEX-RAG follows a **prompt-driven, entity-guided pipeline**:
 Questions or issues? File an issue or contact 
 [Tejas Sarnaik](mailto:tejassarnaik2120@gmail.com)
 
+## Issues and Contributions
+
+For bug reports, implementation questions, or suggestions, please open an issue in the GitHub repository.
+
 ## Citation
 
 If you find this work useful, please consider citing our papers:
